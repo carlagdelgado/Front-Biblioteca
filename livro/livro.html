@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca - Livro</title>
+    <link rel="stylesheet" href="livro.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <h1><a href="../index.html">Biblioteca</a></h1>
+    <ul>
+        <li>
+            <a href="livro.html">Livro</a>
+        </li>
+        <li>
+            <a href="../editora/editora.html">Editora</a>
+        </li>
+        <li>
+            <a href="../autor/autor.html">Autor</a>
+        </li>
+    </ul>
+    <hr>
+    <form onsubmit="submeter(event)">
+        <input type="hidden" id="id">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Insira o nome" required>
+        <br>
+        <br>
+        <label for="isbn">ISBN</label>
+        <input type="number" id="isbn" placeholder="Insira o ISBN" required>
+        <br>
+        <br>
+        <label for="data_publicacao">Data de Publicação</label>
+        <input type="string" id="data_publicacao" placeholder="Insira a data de publicação" required>
+        <br>
+        <br>
+        <label for="preco_livro">Preço</label>
+        <input type="text" id="preco_livro" placeholder="Insira o Preço" required>
+        <br>
+        <br>
+        <label for="id_autor">Autor</label>
+        <select id="id_autor" required>
+            <option value="">Selecione uma opção</option>
+        </select>
+        
+        <br>
+        <br>
+        <label for="id_editora">Editora</label>
+        <select id="id_editora" required>
+            <option value="">Selecione uma opção</option>
+        </select>
+       
+        <br>
+        <br>
+        <button type="submit">Guardar</button>
+        <br>
+        <br>
+    </form>
+    <table>
+        <thead>
+            <th>
+                ID
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                ISBN
+            </th>
+            <th>
+                Data de Publicação
+            </th>
+            <th>
+                Preço
+            </th>
+            <th>
+                ID do Autor
+            </th>
+            <th>
+                ID do Editora
+            </th>
+            <th>
+                Acções
+            </th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script src="livro.js"></script>
+</body>
+</html>

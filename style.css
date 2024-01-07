@@ -1,0 +1,114 @@
+/* Apply some basic styles to the entire table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the table headers */
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Add some styling to alternate table rows for better readability */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the table header row differently for better visibility */
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Hover effect on table rows */
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  /* Resetting default margin and padding for better consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and padding to the header */
+h1 {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Style the links in the header */
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the navigation menu */
+ul {
+  list-style-type: none;
+  background-color: #eee;
+  padding: 10px;
+}
+
+/* Style the individual menu items */
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Style the links within the menu items */
+li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Hover effect on menu items */
+li a:hover {
+  background-color: #ddd;
+}
+
+
+/* Apply some basic styles to the form */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style the labels for form elements */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style the text input */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect on the submit button */
+button:hover {
+  background-color: #45a049;
+}

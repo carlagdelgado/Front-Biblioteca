@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca - Autor</title>
+    <link rel="stylesheet" href="autor.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <h1><a href="../index.html">Biblioteca</a></h1>
+    <ul>
+        <li>
+            <a href="../livro/livro.html">Livro</a>
+        </li>
+        <li>
+            <a href="../editora/editora.html">Editora</a>
+        </li>
+        <li>
+            <a href="autor.html">Autor</a>
+        </li>
+    </ul>
+    <hr>
+    <form onsubmit="submeter(event)">
+        <input type="hidden" id="id">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Insira o nome" required>
+        <br>
+        <br>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome" placeholder="Insira o sobrenome" required>
+        <br>
+        <br>
+        <button type="submit">Guardar</button>
+        <br>
+        <br>
+    </form>
+    <table>
+        <thead>
+            <th>
+                ID
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                Sobrenome
+            </th>
+            <th>
+                Acções
+            </th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script src="autor.js"></script>
+</body>
+</html>
